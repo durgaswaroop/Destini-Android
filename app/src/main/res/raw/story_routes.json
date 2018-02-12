@@ -1,0 +1,55 @@
+{
+  "stories": [
+    {
+      "story": "T1_Story",
+      "choices": [
+        {
+          "answer": "T1_Ans1",
+          "nextStory": "T3_Story"
+        },
+        {
+          "answer": "T1_Ans2",
+          "nextStory": "T2_Story"
+        }
+      ]
+    },
+    {
+      "story": "T2_Story",
+      "choices": [
+        {
+          "answer": "T2_Ans1",
+          "nextStory": "T3_Story"
+        },
+        {
+          "answer": "T2_Ans2",
+          "nextStory": "T4_End"
+        }
+      ]
+    },
+    {
+      "story": "T3_Story",
+      "choices": [
+        {
+          "answer": "T3_Ans1",
+          "nextStory": "T6_End"
+        },
+        {
+          "answer": "T3_Ans2",
+          "nextStory": "T5_End"
+        }
+      ]
+    },
+    {
+      "story": "T4_End",
+      "choices": null
+    },
+    {
+      "story": "T5_End",
+      "choices": null
+    },
+    {
+      "story": "T6_End",
+      "choices": null
+    }
+  ]
+}
